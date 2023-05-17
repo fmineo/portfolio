@@ -4,6 +4,7 @@ import ThemeButton from "@/components/ThemeButton";
 import Profile from "@/components/Profile";
 import About from "@/components/About";
 import Skills from "@/components/Skills/Skills";
+import CmsAndTools from "@/components/CmsAndTools";
 
 export default function Home() {
     return (
@@ -19,6 +20,9 @@ export default function Home() {
                 </section>
                 <section className="">
                     <Skills />
+                </section>
+                <section className="">
+                    <CmsAndTools />
                 </section>
             </main>
         </>
