@@ -6,6 +6,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills/Skills";
 import CmsAndTools from "@/components/CmsAndTools";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
     return (
@@ -29,6 +30,7 @@ export default function Home() {
                     <Contact />
                 </section>
             </main>
+            <Footer />
         </>
     );
 }
