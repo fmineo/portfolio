@@ -2,6 +2,7 @@
 import Head from "next/head";
 import ThemeButton from "@/components/ThemeButton";
 import Profile from "@/components/Profile";
+import About from "@/components/About";
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
                 <section className="text-left">
                     <ThemeButton />
                     <Profile />
+                    <About />
                 </section>
             </main>
         </>
