@@ -3,6 +3,7 @@ import Head from "next/head";
 import ThemeButton from "@/components/ThemeButton";
 import Profile from "@/components/Profile";
 import About from "@/components/About";
+import Skills from "@/components/Skills/Skills";
 
 export default function Home() {
     return (
@@ -15,6 +16,9 @@ export default function Home() {
                     <ThemeButton />
                     <Profile />
                     <About />
+                </section>
+                <section className="">
+                    <Skills />
                 </section>
             </main>
         </>
