@@ -5,6 +5,7 @@ import Profile from "@/components/Profile";
 import About from "@/components/About";
 import Skills from "@/components/Skills/Skills";
 import CmsAndTools from "@/components/CmsAndTools";
+import Contact from "@/components/Contact";
 
 export default function Home() {
     return (
@@ -23,6 +24,9 @@ export default function Home() {
                 </section>
                 <section className="">
                     <CmsAndTools />
+                </section>
+                <section>
+                    <Contact />
                 </section>
             </main>
         </>

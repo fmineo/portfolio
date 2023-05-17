@@ -24,3 +24,12 @@
         height: unset !important;
     }
 }
+
+
+.message.success {
+    @apply text-teal-400
+}
+
+.message.error {
+    @apply text-red-400
+}
