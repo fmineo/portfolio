@@ -13,6 +13,7 @@ export default function Home() {
         <>
             <Head>
                 <title>Francesco Mineo - Sviluppatore Full Stack</title>
+                <meta name="description" content="Full Stack Developer" />
             </Head>
             <main className="mx-3 sm:container sm:mx-auto">
                 <section className="text-left">

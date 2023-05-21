@@ -28,6 +28,7 @@ const ThemeButton = () => {
         <div className="py-5 text-right">
             <button
                 onClick={toggleTheme}
+                aria-label="Modalità tema"
                 className="text-xl md:text-3xl rounded-lg"
             >
                 {currentTheme === "dark" ? <BsFillSunFill /> : <TbMoonFilled />}
