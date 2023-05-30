@@ -67,6 +67,14 @@ function CmsAndTools() {
             name: "NGINX",
             logo: "/images/logos/NGINX.svg",
         },
+        {
+            name: "Vite",
+            logo: "/images/logos/VITE.svg",
+        },
+        {
+            name: "VueJS",
+            logo: "/images/logos/VUE.svg",
+        },
     ];
 
     return (
